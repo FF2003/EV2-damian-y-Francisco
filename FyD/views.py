@@ -16,7 +16,7 @@ def guitarra(request):
        }
     return render(request,'templatesProductos/home.html',data)
 
-def saxofón(request):
+def saxofon(request):
     data={
         "titulo":"saxofón",
         'Información':"Instrumento musical de viento, de metal, con boquilla de madera, caña y varias llaves, que es de invención moderna y muy usado, principalmente en las bandas militares y orquestas de jazz.",
